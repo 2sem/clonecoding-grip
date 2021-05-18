@@ -61,6 +61,9 @@
 		2C763DC9263AFA5500C10E3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2C763DE0263AFB2000C10E3A /* GPTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPTabBarController.swift; sourceTree = "<group>"; };
 		2CB3070D2653735200E00652 /* SwiftyToolTip.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = SwiftyToolTip.podspec; path = ../../pods/SwiftyToolTip/SwiftyToolTip.podspec; sourceTree = "<group>"; };
+		2CB3072A265378F500E00652 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		2CB3072B2653795300E00652 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		2CB3072C26537CAA00E00652 /* screenshots */ = {isa = PBXFileReference; lastKnownFileType = folder; path = screenshots; sourceTree = "<group>"; };
 		2CD0A2EB26497D4500D95D42 /* String+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+.swift"; sourceTree = "<group>"; };
 		2CD0A2F326497D6000D95D42 /* NSAttributedString+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSAttributedString+.swift"; sourceTree = "<group>"; };
 		2CD0A2F826497F3800D95D42 /* NSMutableAttributedString+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSMutableAttributedString+.swift"; sourceTree = "<group>"; };
@@ -103,6 +106,9 @@
 		2C763D99263AFA5400C10E3A = {
 			isa = PBXGroup;
 			children = (
+				2CB3072C26537CAA00E00652 /* screenshots */,
+				2CB3072B2653795300E00652 /* README.md */,
+				2CB3072A265378F500E00652 /* LICENSE */,
 				2CB3070D2653735200E00652 /* SwiftyToolTip.podspec */,
 				2C763DA4263AFA5400C10E3A /* grip */,
 				2C763DBB263AFA5500C10E3A /* gripTests */,
