@@ -3,7 +3,8 @@
 ## ToolTip on TabBar
 
 ## Screenshot
-![Colored Tooltip by Long Press](/screenshots/tabbar-tooltip.gif)
+<img src="/screenshots/tabbar-tooltip.gif" width="209" >
+<img src="/screenshots/tabbar-tooltip-original.png" width="209" >
 
 ## How to?
 
