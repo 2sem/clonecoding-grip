@@ -3,8 +3,11 @@
 ## ToolTip on TabBar
 
 ## Screenshot
-<img src="/screenshots/tabbar-tooltip.gif" width="209" >
-<img src="/screenshots/tabbar-tooltip-original.png" width="209" >
+<p align="center">
+  <img src="/screenshots/tabbar-tooltip.gif" width="209" >
+  &nbsp;
+  <img src="/screenshots/tabbar-tooltip-original.png" width="209" >
+</p>
 
 ## How to?
 
