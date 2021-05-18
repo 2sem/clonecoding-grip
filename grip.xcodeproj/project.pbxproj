@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,13 @@
 		2C763DB2263AFA5500C10E3A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C763DB0263AFA5500C10E3A /* LaunchScreen.storyboard */; };
 		2C763DBD263AFA5500C10E3A /* gripTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C763DBC263AFA5500C10E3A /* gripTests.swift */; };
 		2C763DC8263AFA5500C10E3A /* gripUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C763DC7263AFA5500C10E3A /* gripUITests.swift */; };
+		2C763DE1263AFB2000C10E3A /* GPTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C763DE0263AFB2000C10E3A /* GPTabBarController.swift */; };
+		2CD0A2EC26497D4500D95D42 /* String+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD0A2EB26497D4500D95D42 /* String+.swift */; };
+		2CD0A2F426497D6000D95D42 /* NSAttributedString+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD0A2F326497D6000D95D42 /* NSAttributedString+.swift */; };
+		2CD0A2F926497F3800D95D42 /* NSMutableAttributedString+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD0A2F826497F3800D95D42 /* NSMutableAttributedString+.swift */; };
+		5CA08DC21D9372E9EBE9C387 /* Pods_gripTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94D872D9A9F9106737326856 /* Pods_gripTests.framework */; };
+		5EE8E4A58F081351706FD8AC /* Pods_grip_gripUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1374F4B15C0B3B4A68D290B /* Pods_grip_gripUITests.framework */; };
+		E58D22A650CBCEB2E97EBCA6 /* Pods_grip.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8CB9C9487B595A9D49C5D0A /* Pods_grip.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +42,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03AED6B7A8049BFAC4C91644 /* Pods-grip.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-grip.release.xcconfig"; path = "Target Support Files/Pods-grip/Pods-grip.release.xcconfig"; sourceTree = "<group>"; };
+		0574E006B405FA0B0A50F99E /* Pods-grip-gripUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-grip-gripUITests.debug.xcconfig"; path = "Target Support Files/Pods-grip-gripUITests/Pods-grip-gripUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2A394075FC949379C75153B2 /* Pods-grip-gripUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-grip-gripUITests.release.xcconfig"; path = "Target Support Files/Pods-grip-gripUITests/Pods-grip-gripUITests.release.xcconfig"; sourceTree = "<group>"; };
 		2C763DA2263AFA5400C10E3A /* grip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = grip.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C763DA5263AFA5400C10E3A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2C763DA7263AFA5400C10E3A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +59,17 @@
 		2C763DC3263AFA5500C10E3A /* gripUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gripUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C763DC7263AFA5500C10E3A /* gripUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gripUITests.swift; sourceTree = "<group>"; };
 		2C763DC9263AFA5500C10E3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C763DE0263AFB2000C10E3A /* GPTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPTabBarController.swift; sourceTree = "<group>"; };
+		2CB3070D2653735200E00652 /* SwiftyToolTip.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = SwiftyToolTip.podspec; path = ../../pods/SwiftyToolTip/SwiftyToolTip.podspec; sourceTree = "<group>"; };
+		2CD0A2EB26497D4500D95D42 /* String+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+.swift"; sourceTree = "<group>"; };
+		2CD0A2F326497D6000D95D42 /* NSAttributedString+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSAttributedString+.swift"; sourceTree = "<group>"; };
+		2CD0A2F826497F3800D95D42 /* NSMutableAttributedString+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSMutableAttributedString+.swift"; sourceTree = "<group>"; };
+		31B1970956E0E48A75A53EEE /* Pods-gripTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gripTests.release.xcconfig"; path = "Target Support Files/Pods-gripTests/Pods-gripTests.release.xcconfig"; sourceTree = "<group>"; };
+		3D26A7E2D3742A0506FD1D50 /* Pods-gripTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gripTests.debug.xcconfig"; path = "Target Support Files/Pods-gripTests/Pods-gripTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6B5F486DB0CAA83C67FA8AF4 /* Pods-grip.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-grip.debug.xcconfig"; path = "Target Support Files/Pods-grip/Pods-grip.debug.xcconfig"; sourceTree = "<group>"; };
+		94D872D9A9F9106737326856 /* Pods_gripTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_gripTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8CB9C9487B595A9D49C5D0A /* Pods_grip.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_grip.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1374F4B15C0B3B4A68D290B /* Pods_grip_gripUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_grip_gripUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E58D22A650CBCEB2E97EBCA6 /* Pods_grip.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CA08DC21D9372E9EBE9C387 /* Pods_gripTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5EE8E4A58F081351706FD8AC /* Pods_grip_gripUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,10 +103,13 @@
 		2C763D99263AFA5400C10E3A = {
 			isa = PBXGroup;
 			children = (
+				2CB3070D2653735200E00652 /* SwiftyToolTip.podspec */,
 				2C763DA4263AFA5400C10E3A /* grip */,
 				2C763DBB263AFA5500C10E3A /* gripTests */,
 				2C763DC6263AFA5500C10E3A /* gripUITests */,
 				2C763DA3263AFA5400C10E3A /* Products */,
+				9FF85D2EBF19040901D96556 /* Pods */,
+				B9C22EF6507616AC791ACD09 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +126,8 @@
 		2C763DA4263AFA5400C10E3A /* grip */ = {
 			isa = PBXGroup;
 			children = (
+				2CD0A2EA26497D1800D95D42 /* extensions */,
+				2C763DDB263AFA7E00C10E3A /* viewControllers */,
 				2C763DA5263AFA5400C10E3A /* AppDelegate.swift */,
 				2C763DA7263AFA5400C10E3A /* SceneDelegate.swift */,
 				2C763DA9263AFA5400C10E3A /* ViewController.swift */,
@@ -128,6 +157,47 @@
 			path = gripUITests;
 			sourceTree = "<group>";
 		};
+		2C763DDB263AFA7E00C10E3A /* viewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				2C763DE0263AFB2000C10E3A /* GPTabBarController.swift */,
+			);
+			path = viewControllers;
+			sourceTree = "<group>";
+		};
+		2CD0A2EA26497D1800D95D42 /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2CD0A2EB26497D4500D95D42 /* String+.swift */,
+				2CD0A2F326497D6000D95D42 /* NSAttributedString+.swift */,
+				2CD0A2F826497F3800D95D42 /* NSMutableAttributedString+.swift */,
+			);
+			path = extensions;
+			sourceTree = "<group>";
+		};
+		9FF85D2EBF19040901D96556 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6B5F486DB0CAA83C67FA8AF4 /* Pods-grip.debug.xcconfig */,
+				03AED6B7A8049BFAC4C91644 /* Pods-grip.release.xcconfig */,
+				0574E006B405FA0B0A50F99E /* Pods-grip-gripUITests.debug.xcconfig */,
+				2A394075FC949379C75153B2 /* Pods-grip-gripUITests.release.xcconfig */,
+				3D26A7E2D3742A0506FD1D50 /* Pods-gripTests.debug.xcconfig */,
+				31B1970956E0E48A75A53EEE /* Pods-gripTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B9C22EF6507616AC791ACD09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A8CB9C9487B595A9D49C5D0A /* Pods_grip.framework */,
+				E1374F4B15C0B3B4A68D290B /* Pods_grip_gripUITests.framework */,
+				94D872D9A9F9106737326856 /* Pods_gripTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +205,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2C763DCC263AFA5500C10E3A /* Build configuration list for PBXNativeTarget "grip" */;
 			buildPhases = (
+				EE7ACCB2395953497261F514 /* [CP] Check Pods Manifest.lock */,
 				2C763D9E263AFA5400C10E3A /* Sources */,
 				2C763D9F263AFA5400C10E3A /* Frameworks */,
 				2C763DA0263AFA5400C10E3A /* Resources */,
+				0B4D69AC2D96B032837587A2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +224,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2C763DCF263AFA5500C10E3A /* Build configuration list for PBXNativeTarget "gripTests" */;
 			buildPhases = (
+				1E1B4443BB77B18F9AB07D16 /* [CP] Check Pods Manifest.lock */,
 				2C763DB4263AFA5500C10E3A /* Sources */,
 				2C763DB5263AFA5500C10E3A /* Frameworks */,
 				2C763DB6263AFA5500C10E3A /* Resources */,
@@ -170,9 +243,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2C763DD2263AFA5500C10E3A /* Build configuration list for PBXNativeTarget "gripUITests" */;
 			buildPhases = (
+				9225016702CDF7A28E2DE60B /* [CP] Check Pods Manifest.lock */,
 				2C763DBF263AFA5500C10E3A /* Sources */,
 				2C763DC0263AFA5500C10E3A /* Frameworks */,
 				2C763DC1263AFA5500C10E3A /* Resources */,
+				968BD531916BAE6F6FFDDF81 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,13 +328,120 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0B4D69AC2D96B032837587A2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-grip/Pods-grip-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-grip/Pods-grip-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-grip/Pods-grip-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1E1B4443BB77B18F9AB07D16 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-gripTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9225016702CDF7A28E2DE60B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-grip-gripUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		968BD531916BAE6F6FFDDF81 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-grip-gripUITests/Pods-grip-gripUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-grip-gripUITests/Pods-grip-gripUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-grip-gripUITests/Pods-grip-gripUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE7ACCB2395953497261F514 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-grip-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2C763D9E263AFA5400C10E3A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				2C763DAA263AFA5400C10E3A /* ViewController.swift in Sources */,
+				2CD0A2F426497D6000D95D42 /* NSAttributedString+.swift in Sources */,
 				2C763DA6263AFA5400C10E3A /* AppDelegate.swift in Sources */,
+				2CD0A2F926497F3800D95D42 /* NSMutableAttributedString+.swift in Sources */,
+				2CD0A2EC26497D4500D95D42 /* String+.swift in Sources */,
+				2C763DE1263AFB2000C10E3A /* GPTabBarController.swift in Sources */,
 				2C763DA8263AFA5400C10E3A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,12 +615,14 @@
 		};
 		2C763DCD263AFA5500C10E3A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B5F486DB0CAA83C67FA8AF4 /* Pods-grip.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M29A6H95KD;
 				INFOPLIST_FILE = grip/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,12 +636,14 @@
 		};
 		2C763DCE263AFA5500C10E3A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03AED6B7A8049BFAC4C91644 /* Pods-grip.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M29A6H95KD;
 				INFOPLIST_FILE = grip/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -471,6 +657,7 @@
 		};
 		2C763DD0263AFA5500C10E3A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D26A7E2D3742A0506FD1D50 /* Pods-gripTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +680,7 @@
 		};
 		2C763DD1263AFA5500C10E3A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31B1970956E0E48A75A53EEE /* Pods-gripTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +703,7 @@
 		};
 		2C763DD3263AFA5500C10E3A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0574E006B405FA0B0A50F99E /* Pods-grip-gripUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +724,7 @@
 		};
 		2C763DD4263AFA5500C10E3A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A394075FC949379C75153B2 /* Pods-grip-gripUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
